@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Backtracking</title>
+</head>
+<body>
+    <h1>Backtracking</h1>
+    <div id="copyright" class="para">
+       <h4>Copyright &#169; 2002 by David Matuszek</h4>
+    </div>
+    <p class="description">
+        <strong>Backtracking</strong> is a <b> form </b> of <em>recursion.</em>
+    </p>
+    <p class="para-des">
+        The usual scenario is <ins>that</ins> you are <strike>faced</strike> with a number of options, and you must <u>choose</u> one of these. After you make your <i>choice</i> you will get a <small>new</small> set of options; just what set of options you get depends on what choice you made. This procedure is repeated over and over until you reach a final state. If you made a good sequence of choices, your <mark>final</mark> state is a <sub>goal</sub> state; if you didn't, <sup>it</sup> isn't.
+    </p>
+    <img src="https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking_files/treesearch.gif" alt="backtracking image">
+    <span>This is a backtracking image.</span>
+    <ol start="4" reversed="true">
+        <li>Starting at Root, your options are A and B. You choose A</li>
+        <li>At A, your options are C and D. You choose C.</li>
+        <li>C is bad. Go back to A.</li>
+        <li>At A, you have already tried C, and it failed. Try D.</li>
+    </ol>
+
+    <ul type="square">
+        <li>Starting at Root, your options are A and B. You choose A</li>
+        <li>At A, your options are C and D. You choose C.</li>
+        <li>C is bad. Go back to A.</li>
+        <li>At A, you have already tried C, and it failed. Try D.</li>
+    </ul>
+
+    <hr size="4">
+
+    <table border="1px" align="center" cellpadding="10px" cellspacing="5px" width="550px">
+        <thead bgcolor="#deffde">
+            <th bgcolor="#ffffff"></th>
+            <th colspan="2">2 by 3 map</th>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td rowspan="2">method 1:</td>
+            <td>60 ms</td>
+            <td>940 ms</td>
+            <td>60530 ms(1 minute)</td>
+            </tr>
+            <tr>
+                <td>0 ms</td>
+                <td>0 ms</td>
+                <td>0 ms(1 minute)</td>
+             </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>1 ms</td>
+                <td>1 ms</td>
+                <td align="start">1 ms</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table border="1px" align="center" cellpadding="10px" cellspacing="5px" width="550px">
+        <thead bgcolor="#deffde">
+            <th bgcolor="#ffffff"></th>
+            <th colspan="2">2 by 3 map</th>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td rowspan="2">method 1:</td>
+            <td>60 ms</td>
+            <td>940 ms</td>
+            <td>60530 ms(1 minute)</td>
+            </tr>
+            <tr>
+                <td>0 ms</td>
+                <td>0 ms</td>
+                <td>0 ms(1 minute)</td>
+             </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>1 ms</td>
+                <td>1 ms</td>
+                <td align="start">1 ms</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table border="1px" align="center" cellpadding="10px" cellspacing="5px" width="550px">
+        <thead bgcolor="#deffde">
+            <th bgcolor="#ffffff"></th>
+            <th colspan="2">2 by 3 map</th>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td rowspan="2">method 1:</td>
+            <td>60 ms</td>
+            <td>940 ms</td>
+            <td>60530 ms(1 minute)</td>
+            </tr>
+            <tr>
+                <td>0 ms</td>
+                <td>0 ms</td>
+                <td>0 ms(1 minute)</td>
+             </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>1 ms</td>
+                <td>1 ms</td>
+                <td align="start">1 ms</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <a href="#copyright">Please share your contact</a>
+
+</body>
+</html>
